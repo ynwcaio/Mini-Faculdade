@@ -2,8 +2,6 @@
 
 Este projeto é uma API RESTful desenvolvida com **Spring Boot** para gerenciar o relacionamento entre Cursos (`Course`) e Alunos (`Student`). O objetivo principal é praticar e consolidar conceitos avançados do **Spring Data JPA**, especialmente o relacionamento **One-to-Many**.
 
-Desenvolvido por: **[Seu Nome ou Nickname Aqui]**
-
 ## 💻 Tecnologias Utilizadas
 
 * **Linguagem:** Java 22
