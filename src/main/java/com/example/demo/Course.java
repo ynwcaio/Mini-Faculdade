@@ -1,7 +1,7 @@
 package com.example.demo;
 
 import jakarta.persistence.*;
-import java.util.ArrayList; // Usamos ArrayList se for List
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -13,9 +13,7 @@ public class Course {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String name;
-
     private Integer workload;
 
 
@@ -29,6 +27,30 @@ public class Course {
     public Course(Long id, String name, Integer workload) {
         this.id = id;
         this.name = name;
+        this.workload = workload;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getWorkload() {
+        return workload;
+    }
+
+    public void setWorkload(Integer workload) {
         this.workload = workload;
     }
 
